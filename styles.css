@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://img.freepik.com/free-vector/rainbow-background-desktop-wallpaper-cute-vector_53876-136881.jpg'); /* Kiddie theme background image */
@@ -113,4 +114,18 @@ form input, form textarea, form button {
     margin-top: 5px;
     padding: 10px;
     font-size: 16px;
+}
+header {
+    position: relative; /* Ensures the overlay image is positioned relative to the header */
+}
+
+.overlay-image {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+}
+
+.overlay-image img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
 }
